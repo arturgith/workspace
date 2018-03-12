@@ -1,14 +1,6 @@
 // scripts.js
 
-var name = prompt('Enter your name');
-// zakomentowanie liniii z poleceniem alert alert('Hello, ' + name);
-console.log('Hello, ' + name);
-
-//Pierwszy komentarz
-//Drugi komentarz
-
-/*
-lub
-dłuższy
-komentarz
-*/
+var a = 2,
+    h = 4,
+    triangleArea = a * h / 2;
+console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
